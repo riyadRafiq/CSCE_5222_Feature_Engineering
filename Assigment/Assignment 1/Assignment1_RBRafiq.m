@@ -2,7 +2,7 @@
 % Read and display image
 
 im = imread('image1.png');
-figure, imshow(im)
+imshow(im)
 imwrite(im, 'res1.png');
 
 % Covert color image into HSV and display each channel
